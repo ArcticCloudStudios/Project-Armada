@@ -1,0 +1,257 @@
+fileFormatVersion: 2
+guid: 111cb4c97754ab3468f2fd81b40ef5c2
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: MESH_Jackal_Temp/Jackal_Temp
+    100002: MESH_Jackal_Temp/Jackal_Temp/Armature
+    100004: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm
+    100006: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand
+    100008: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L index
+    100010: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L index/L index.001
+    100012: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L index/L index.001/L
+      index.002
+    100014: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L index/L index.001/L
+      index.002/L index.002_end
+    100016: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L ring
+    100018: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L ring/L ring.001
+    100020: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L ring/L ring.001/L
+      ring.002
+    100022: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L ring/L ring.001/L
+      ring.002/L ring.002_end
+    100024: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L thumb
+    100026: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L thumb/L thumb.001
+    100028: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L thumb/L thumb.001/L
+      thumb.002
+    100030: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L thumb/L thumb.001/L
+      thumb.002/L thumb.002_end
+    100032: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l eblow
+    100034: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l eblow/IK l eblow_end
+    100036: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l knee
+    100038: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l knee/IK l knee_end
+    100040: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg
+    100042: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot
+    100044: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 1
+    100046: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 1/L toe 1_end
+    100048: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 2
+    100050: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 2/L toe 2_end
+    100052: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 3
+    100054: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 3/L toe 3_end
+    100056: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm
+    100058: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand
+    100060: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R index
+    100062: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R index/R index.001
+    100064: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R index/R index.001/R
+      index.002
+    100066: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R index/R index.001/R
+      index.002/R index.002_end
+    100068: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R ring
+    100070: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R ring/R ring.001
+    100072: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R ring/R ring.001/R
+      ring.002
+    100074: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R ring/R ring.001/R
+      ring.002/R ring.002_end
+    100076: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R thumb
+    100078: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R thumb/R thumb.001
+    100080: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R thumb/R thumb.001/R
+      thumb.002
+    100082: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R thumb/R thumb.001/R
+      thumb.002/R thumb.002_end
+    100084: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r eblow
+    100086: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r eblow/IK r eblow_end
+    100088: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r knee
+    100090: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r knee/IK r knee_end
+    100092: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg
+    100094: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot
+    100096: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 1
+    100098: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 1/R toe 1_end
+    100100: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 2
+    100102: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 2/R toe 2_end
+    100104: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 3
+    100106: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 3/R toe 3_end
+    100108: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis
+    100110: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011
+    100112: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/L thigh
+    100114: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/L thigh/L horselink
+    100116: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/L thigh/L horselink/L
+      shin
+    100118: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/L thigh/L horselink/L
+      shin/L shin_end
+    100120: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/R thigh
+    100122: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/R thigh/R horselink
+    100124: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/R thigh/R horselink/R
+      shin
+    100126: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/R thigh/R horselink/R
+      shin/R shin_end
+    100128: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1
+    100130: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2
+    100132: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3
+    100134: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/L
+      collar
+    100136: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/L
+      collar/L upperarm
+    100138: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/L
+      collar/L upperarm/L forearm
+    100140: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/L
+      collar/L upperarm/L forearm/L forearm_end
+    100142: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1
+    100144: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2
+    100146: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head
+    100148: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw
+    100150: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw/jaw.001
+    100152: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw/jaw.001/jaw.001_end
+    100154: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw/tounge
+    100156: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw/tounge/tounge.001
+    100158: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw/tounge/tounge.001/tounge.001_end
+    100160: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/R
+      collar
+    100162: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/R
+      collar/R upperarm
+    100164: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/R
+      collar/R upperarm/R forearm
+    100166: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/R
+      collar/R upperarm/R forearm/R forearm_end
+    100168: MESH_Jackal_Temp/Jackal_Temp/Cube.000
+    100170: MESH_Jackal_Temp/Jackal_Temp/Cube.001
+    400000: MESH_Jackal_Temp/Jackal_Temp/Transform
+    400002: MESH_Jackal_Temp/Jackal_Temp/Armature/Transform
+    400004: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/Transform
+    400006: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/Transform
+    400008: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L index/Transform
+    400010: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L index/L index.001/Transform
+    400012: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L index/L index.001/L
+      index.002/Transform
+    400014: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L index/L index.001/L
+      index.002/L index.002_end/Transform
+    400016: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L ring/Transform
+    400018: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L ring/L ring.001/Transform
+    400020: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L ring/L ring.001/L
+      ring.002/Transform
+    400022: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L ring/L ring.001/L
+      ring.002/L ring.002_end/Transform
+    400024: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L thumb/Transform
+    400026: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L thumb/L thumb.001/Transform
+    400028: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L thumb/L thumb.001/L
+      thumb.002/Transform
+    400030: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l arm/L hand/L thumb/L thumb.001/L
+      thumb.002/L thumb.002_end/Transform
+    400032: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l eblow/Transform
+    400034: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l eblow/IK l eblow_end/Transform
+    400036: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l knee/Transform
+    400038: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l knee/IK l knee_end/Transform
+    400040: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/Transform
+    400042: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/Transform
+    400044: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 1/Transform
+    400046: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 1/L toe 1_end/Transform
+    400048: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 2/Transform
+    400050: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 2/L toe 2_end/Transform
+    400052: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 3/Transform
+    400054: MESH_Jackal_Temp/Jackal_Temp/Armature/IK l leg/L foot/L toe 3/L toe 3_end/Transform
+    400056: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/Transform
+    400058: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/Transform
+    400060: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R index/Transform
+    400062: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R index/R index.001/Transform
+    400064: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R index/R index.001/R
+      index.002/Transform
+    400066: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R index/R index.001/R
+      index.002/R index.002_end/Transform
+    400068: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R ring/Transform
+    400070: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R ring/R ring.001/Transform
+    400072: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R ring/R ring.001/R
+      ring.002/Transform
+    400074: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R ring/R ring.001/R
+      ring.002/R ring.002_end/Transform
+    400076: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R thumb/Transform
+    400078: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R thumb/R thumb.001/Transform
+    400080: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R thumb/R thumb.001/R
+      thumb.002/Transform
+    400082: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r arm/R hand/R thumb/R thumb.001/R
+      thumb.002/R thumb.002_end/Transform
+    400084: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r eblow/Transform
+    400086: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r eblow/IK r eblow_end/Transform
+    400088: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r knee/Transform
+    400090: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r knee/IK r knee_end/Transform
+    400092: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/Transform
+    400094: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/Transform
+    400096: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 1/Transform
+    400098: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 1/R toe 1_end/Transform
+    400100: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 2/Transform
+    400102: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 2/R toe 2_end/Transform
+    400104: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 3/Transform
+    400106: MESH_Jackal_Temp/Jackal_Temp/Armature/IK r leg/R foot/R toe 3/R toe 3_end/Transform
+    400108: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Transform
+    400110: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/Transform
+    400112: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/L thigh/Transform
+    400114: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/L thigh/L horselink/Transform
+    400116: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/L thigh/L horselink/L
+      shin/Transform
+    400118: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/L thigh/L horselink/L
+      shin/L shin_end/Transform
+    400120: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/R thigh/Transform
+    400122: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/R thigh/R horselink/Transform
+    400124: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/R thigh/R horselink/R
+      shin/Transform
+    400126: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/Bone.011/R thigh/R horselink/R
+      shin/R shin_end/Transform
+    400128: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/Transform
+    400130: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/Transform
+    400132: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/Transform
+    400134: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/L
+      collar/Transform
+    400136: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/L
+      collar/L upperarm/Transform
+    400138: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/L
+      collar/L upperarm/L forearm/Transform
+    400140: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/L
+      collar/L upperarm/L forearm/L forearm_end/Transform
+    400142: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/Transform
+    400144: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/Transform
+    400146: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/Transform
+    400148: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw/Transform
+    400150: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw/jaw.001/Transform
+    400152: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw/jaw.001/jaw.001_end/Transform
+    400154: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw/tounge/Transform
+    400156: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw/tounge/tounge.001/Transform
+    400158: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/neck
+      1/neck 2/head/jaw/tounge/tounge.001/tounge.001_end/Transform
+    400160: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/R
+      collar/Transform
+    400162: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/R
+      collar/R upperarm/Transform
+    400164: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/R
+      collar/R upperarm/R forearm/Transform
+    400166: MESH_Jackal_Temp/Jackal_Temp/Armature/pelvis/spine 1/spine 2/spine 3/R
+      collar/R upperarm/R forearm/R forearm_end/Transform
+    400168: MESH_Jackal_Temp/Jackal_Temp/Cube.000/Transform
+    400170: MESH_Jackal_Temp/Jackal_Temp/Cube.001/Transform
+    9500000: MESH_Jackal_Temp/Jackal_Temp/Animator
+    13700000: MESH_Jackal_Temp/Jackal_Temp/Cube.000/SkinnedMeshRenderer
+    13700002: MESH_Jackal_Temp/Jackal_Temp/Cube.001/SkinnedMeshRenderer
+    100100000: MESH_Jackal_Temp
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1d07e227660637742a0951dddbf11f93, type: 3}
+  materialGUIDs:
+  - mat: {instanceID: 0}
+    matName: 
+  - mat: {instanceID: 0}
+    matName: 
+  materialCount: 2

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Photon.Pun;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,8 @@ public enum Status { idle, moving, crouching, sliding, climbingLadder, wallRunni
 
 public class PlayerController : MonoBehaviour
 {
+    private PhotonView PV;
+
     [Header("Player Abilities")]
     public PassiveAbility Passive;
     public NonPassiveAbility NonPassive;
@@ -49,9 +52,10 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
+        PV = GetComponent<PhotonView>();
         CreateVaultHelper();
         playerInput = GetComponent<PlayerInput>();
-        movement = GetComponent<PlayerMovement>();
+        //movement = GetComponent<PlayerMovement>();
 
         if (GetComponentInChildren<AnimateLean>())
             animateLean = GetComponentInChildren<AnimateLean>();
@@ -67,29 +71,33 @@ public class PlayerController : MonoBehaviour
     /******************************* UPDATE ******************************/
     void Update()
     {
-        //Updates
-        UpdateInteraction();
-        UpdateMovingStatus();
-
-
-        //Check for movement updates
-        CheckSliding();
-        CheckCrouching();
-        if (Passive.name == "Ability_Wallrun")
+        if (PV.IsMine)
         {
-            CheckForWallrun();
-        }
-        if (Passive.name == "Ability_Climb")
-        {
-            CheckLadderClimbing();
-            UpdateLedgeGrabbing();
-        }
-      
-        CheckForVault();
-        //Add new check to change status right here
+            //Updates
+            UpdateInteraction();
+            UpdateMovingStatus();
 
-        //Misc
-        UpdateLean();
+
+            //Check for movement updates
+            CheckSliding();
+            CheckCrouching();
+            if (Passive.name == "Ability_Wallrun")
+            {
+                CheckForWallrun();
+            }
+            if (Passive.name == "Ability_Climb")
+            {
+                CheckLadderClimbing();
+                UpdateLedgeGrabbing();
+            }
+
+            CheckForVault();
+            //Add new check to change status right here
+
+            //Misc
+            UpdateLean();
+        }
+       
     }
 
     void UpdateInteraction()
@@ -131,38 +139,43 @@ public class PlayerController : MonoBehaviour
     /******************************** MOVE *******************************/
     void FixedUpdate()
     {
-        switch (status)
+        if (PV.IsMine)
         {
-            case Status.sliding:
-                SlideMovement();
-                break;
-            case Status.climbingLadder:
-                LadderMovement();
-                break;
-            case Status.grabbedLedge:
-                GrabbedLedgeMovement();
-                break;
-            case Status.climbingLedge:
-                ClimbLedgeMovement();
-                break;
-            case Status.wallRunning:
-                WallrunningMovement();
-                break;
-            case Status.vaulting:
-                VaultMovement();
-                break;
-            default:
-                DefaultMovement();
-                break;
-        }
+            switch (status)
+            {
+                case Status.sliding:
+                    SlideMovement();
+                    break;
+                case Status.climbingLadder:
+                    LadderMovement();
+                    break;
+                case Status.grabbedLedge:
+                    GrabbedLedgeMovement();
+                    break;
+                case Status.climbingLedge:
+                    ClimbLedgeMovement();
+                    break;
+                case Status.wallRunning:
+                    WallrunningMovement();
+                    break;
+                case Status.vaulting:
+                    VaultMovement();
+                    break;
+                default:
+                    DefaultMovement();
+                    break;
+            }
 
-        if (status == Status.wallRunning)
-        {
-            movement.gravity = 5.0f;
-        } else
-        {
-            movement.gravity = 20.0f;
+            if (status == Status.wallRunning)
+            {
+                movement.gravity = 5.0f;
+            }
+            else
+            {
+                movement.gravity = 20.0f;
+            }
         }
+  
     }
 
     void DefaultMovement()

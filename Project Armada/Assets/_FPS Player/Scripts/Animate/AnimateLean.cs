@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
 public class AnimateLean : MonoBehaviour
 {
+    public PhotonView PV;
     public float lerpSpeed = 0.125f;
 
     Vector2 lean;
@@ -17,12 +19,16 @@ public class AnimateLean : MonoBehaviour
 
     void Update()
     {
-        if (Mathf.Abs(lean.x - actualLean.x) > 0.02f)
-            actualLean.x = Mathf.Lerp(actualLean.x, lean.x, lerpSpeed);
-        if (Mathf.Abs(lean.y - actualLean.y) > 0.02f)
-            actualLean.y = Mathf.Lerp(actualLean.y, lean.y, lerpSpeed);
-        ani.SetFloat("x", actualLean.x);
-        ani.SetFloat("y", actualLean.y);
+        if (PV.IsMine)
+        {
+            if (Mathf.Abs(lean.x - actualLean.x) > 0.02f)
+                actualLean.x = Mathf.Lerp(actualLean.x, lean.x, lerpSpeed);
+            if (Mathf.Abs(lean.y - actualLean.y) > 0.02f)
+                actualLean.y = Mathf.Lerp(actualLean.y, lean.y, lerpSpeed);
+            ani.SetFloat("x", actualLean.x);
+            ani.SetFloat("y", actualLean.y);
+        }
+       
     }
 
     public void SetLean(Vector2 set)

@@ -1,9 +1,12 @@
-﻿using System.Collections;
+﻿using Photon.Pun;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private PhotonView PV;
+    public CharacterType CT;
     public float walkSpeed = 4.0f;
     public float runSpeed = 8.0f;
     public float slideSpeed = 10.0f;
@@ -18,7 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public Vector3 moveDirection = Vector3.zero;
     [HideInInspector]
     public Vector3 contactPoint;
-    [HideInInspector]
+    
     public CharacterController controller;
     [HideInInspector]
     public bool playerControl = false;
@@ -33,12 +36,20 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        PV = GetComponent<PhotonView>();
         // Saving component references to improve performance.
         controller = GetComponent<CharacterController>();
+        CT = gameObject.GetComponent<PlayerVitals>().Character;
+        walkSpeed = CT.speed;
+        runSpeed = walkSpeed + 4;
     }
     
     private void Update()
     {
+        CT = gameObject.GetComponent<PlayerVitals>().Character;
+        walkSpeed = CT.speed;
+        runSpeed = walkSpeed + 4;
+
         if (forceTime > 0)
             forceTime -= Time.deltaTime;
     }

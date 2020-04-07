@@ -16,6 +16,19 @@ public class HUDManager : MonoBehaviour
 
     public Sprite NoIconError;
 
+    [Header("Vitals Section")]
+    public Slider HealthSlider;
+    public Slider ArmorSlider;
+    public TextMeshProUGUI HealthNum;
+    public GameObject LowHealthIndicator;
+
+    [Header("Character Section")]
+    public TextMeshProUGUI CharacterName;
+
+    [Header("Weapon Section")]
+    public TextMeshProUGUI AmmoCounter;
+    public TextMeshProUGUI WeaponName;
+
     PlayerController PC;
 
     public void Start()
